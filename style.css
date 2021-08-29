@@ -1,0 +1,134 @@
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+
+    display: block;
+    min-height: 100vh;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+  padding:20px 0;
+
+}
+
+.header{
+    background-color: royalblue;
+    padding: 10px 0;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 46px;
+}
+
+.header__text{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header__img{
+    width: 100px;
+}
+
+.body__title{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 10px;
+}
+.body__text{
+    text-align: center;
+    width: 500px;
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.container__body{
+display: flex;
+
+flex-direction: column;
+}
+
+.wrapper__technology__title{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 10px;
+
+}
+
+.wrapper__technology__list{
+ padding-left: 25px;
+}
+
+.wrapper__technology__item{
+    font-size: 24px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    margin-top: 90px
+}
+
+.footer__wrapper-gmail{
+    display: flex;
+  
+}
+
+.img-gmail{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer__wrapper-telphone{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.img-phone{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-telphone{
+    text-decoration: none;
+    color: #000;
+}
+
+.text-juni{
+    font-size: 20px;
+    font-weight: 500;
+}
